@@ -3,9 +3,8 @@ import time
 from mail import mail
 from random import randint
 
-def motion():
 
-    time.sleep(3)
+time.sleep(3)
     print('started')
     cam = cv2.VideoCapture(0)
     i =0
