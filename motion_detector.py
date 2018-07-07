@@ -32,7 +32,7 @@ time.sleep(3)
         if(b >60000 and i > 3):
             print(a)
             x= 'img' + str(randint(44343,432355545)) + '.jpg'
-            cv2.imwrite('C:\\Users\\ayush\\Desktop\\pyth\\test\\{}'.format(x),img)
+            cv2.imwrite('.\\test\\{}'.format(x),img)
             mail(x)
 
             break
