@@ -25,7 +25,7 @@ def mail(name):
     body = 'detected some motion'
     msg.attach(MIMEText(body,'plain'))
 
-    filename='./test/{}'.format(name)
+    filename='./images/{}'.format(name)
     attachment  =open(filename,'rb')
 
     part = MIMEBase('application','octet-stream')
