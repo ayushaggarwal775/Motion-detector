@@ -15,7 +15,7 @@ while True:
     gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
     gray = cv2.GaussianBlur(gray,(21,21),0)
 
-    k = cv2.waitKey(500)
+    k = cv2.waitKey(600)
     if(k==ord('q')):
        break
     ret1 , first = cam.read()
